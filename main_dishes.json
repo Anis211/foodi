@@ -1,0 +1,518 @@
+[
+  {
+    "name": "Chicken Caesar Salad",
+    "description": "Classic salad made with romaine lettuce, grilled chicken, croutons, Parmesan cheese, and Caesar dressing.",
+    "cost": 13,
+    "rating": 4.6
+  },
+  {
+    "name": "Moules Marinières",
+    "description": "French dish of mussels cooked in white wine, garlic, shallots, and parsley, often served with fries.",
+    "cost": 22,
+    "rating": 4.6
+  },
+  {
+    "name": "Pulled Pork Sandwich",
+    "description": "American sandwich made with slow-cooked, shredded pork shoulder, often served on a bun with barbecue sauce.",
+    "cost": 12,
+    "rating": 4.7
+  },
+  {
+    "name": "Spanakopita",
+    "description": "Greek savory pastry filled with spinach, feta cheese, onions, and herbs, baked in layers of phyllo dough.",
+    "cost": 14,
+    "rating": 4.6
+  },
+  {
+    "name": "Kung Pao Chicken",
+    "description": "Chinese dish of stir-fried chicken with peanuts, vegetables, and chili peppers, in a spicy, savory sauce.",
+    "cost": 16,
+    "rating": 4.6
+  },
+  {
+    "name": "Gyudon",
+    "description": "Japanese dish of thinly sliced beef and onions simmered in a sweet and savory sauce, served over rice.",
+    "cost": 14,
+    "rating": 4.5
+  },
+  {
+    "name": "Meatball Sub",
+    "description": "Italian-American sandwich made with meatballs, marinara sauce, and melted cheese, served in a long roll.",
+    "cost": 13,
+    "rating": 4.6
+  },
+  {
+    "name": "Chicken Cordon Bleu",
+    "description": "French dish of breaded and fried chicken breast stuffed with ham and cheese.",
+    "cost": 18,
+    "rating": 4.7
+  },
+  {
+    "name": "Stuffed Bell Peppers",
+    "description": "Dish made by filling bell peppers with a mixture of ground meat, rice, cheese, and seasonings, then baking until tender.",
+    "cost": 15,
+    "rating": 4.5
+  },
+  {
+    "name": "Hainanese Chicken Rice",
+    "description": "Singaporean dish of poached chicken and seasoned rice, served with chili sauce and cucumber slices.",
+    "cost": 16,
+    "rating": 4.6
+  },
+  {
+    "name": "Chicken Shawarma",
+    "description": "Middle Eastern dish of seasoned, thinly sliced chicken cooked on a vertical rotisserie, typically served in pita bread with tahini sauce.",
+    "cost": 14,
+    "rating": 4.7
+  },
+  {
+    "name": "Birria Tacos",
+    "description": "Mexican tacos filled with tender, slow-cooked birria meat (usually beef or goat), topped with onions, cilantro, and salsa.",
+    "cost": 18,
+    "rating": 4.8
+  },
+  {
+    "name": "Chicken Katsu",
+    "description": "Japanese breaded and fried chicken cutlets served with tonkatsu sauce.",
+    "cost": 14,
+    "rating": 4.5
+  },
+  {
+    "name": "Egg Fried Rice",
+    "description": "Chinese dish of fried rice cooked with eggs, vegetables, and soy sauce.",
+    "cost": 11,
+    "rating": 4.3
+  },
+  {
+    "name": "Salmon Teriyaki",
+    "description": "Japanese dish of grilled salmon glazed with a sweet teriyaki sauce.",
+    "cost": 20,
+    "rating": 4.6
+  },
+  {
+    "name": "Caprese Salad",
+    "description": "Italian salad made with fresh tomatoes, mozzarella cheese, basil, and olive oil.",
+    "cost": 12,
+    "rating": 4.4
+  },
+  {
+    "name": "Vegetable Biryani",
+    "description": "Indian rice dish cooked with aromatic spices, vegetables, and basmati rice.",
+    "cost": 16,
+    "rating": 4.5
+  },
+  {
+    "name": "Beef Empanadas",
+    "description": "Latin American pastries filled with seasoned ground beef and baked or fried.",
+    "cost": 13,
+    "rating": 4.6
+  },
+  {
+    "name": "Lobster Bisque",
+    "description": "French creamy soup made with lobster, broth, cream, and sherry.",
+    "cost": 24,
+    "rating": 4.7
+  },
+  {
+    "name": "Vegetable Stir-Fry",
+    "description": "Chinese dish of mixed vegetables stir-fried in a savory sauce.",
+    "cost": 12,
+    "rating": 4.3
+  },
+  {
+    "name": "Chicken Fajitas",
+    "description": "Mexican dish of grilled chicken strips served with sautéed peppers and onions.",
+    "cost": 15,
+    "rating": 4.5
+  },
+  {
+    "name": "Tiramisu",
+    "description": "Italian dessert made with layers of coffee-soaked ladyfingers and mascarpone cheese.",
+    "cost": 9,
+    "rating": 4.7
+  },
+  {
+    "name": "Lentil Soup",
+    "description": "Hearty soup made with lentils, vegetables, and sometimes meat or sausage.",
+    "cost": 10,
+    "rating": 4.4
+  },
+  {
+    "name": "Beef Tacos",
+    "description": "Mexican tacos filled with seasoned ground beef, lettuce, cheese, and salsa.",
+    "cost": 11,
+    "rating": 4.5
+  },
+  {
+    "name": "Chicken Noodle Soup",
+    "description": "Classic soup made with chicken, vegetables, and egg noodles in a broth.",
+    "cost": 10,
+    "rating": 4.6
+  },
+  {
+    "name": "Seafood Paella",
+    "description": "Spanish rice dish cooked with a variety of seafood, saffron, and vegetables.",
+    "cost": 26,
+    "rating": 4.8
+  },
+  {
+    "name": "Crispy Duck",
+    "description": "Chinese dish of duck with crispy skin and tender meat, often served with pancakes and hoisin sauce.",
+    "cost": 28,
+    "rating": 4.7
+  },
+  {
+    "name": "Lemon Meringue Pie",
+    "description": "Classic dessert consisting of lemon curd filling topped with meringue, baked in a pie crust.",
+    "cost": 12,
+    "rating": 4.6
+  },
+  {
+    "name": "Shrimp Fried Rice",
+    "description": "Chinese dish of fried rice cooked with shrimp, vegetables, and soy sauce.",
+    "cost": 14,
+    "rating": 4.5
+  },
+  {
+    "name": "Pork Dumplings",
+    "description": "Chinese dumplings filled with seasoned ground pork, often steamed or pan-fried.",
+    "cost": 11,
+    "rating": 4.4
+  },
+  {
+    "name": "Peking Duck",
+    "description": "Chinese dish of roasted duck served with hoisin sauce, scallions, and pancakes.",
+    "cost": 28,
+    "rating": 4.7
+  },
+  {
+    "name": "Risotto",
+    "description": "Italian rice dish cooked with broth until creamy, often with added ingredients like mushrooms or seafood.",
+    "cost": 20,
+    "rating": 4.4
+  },
+  {
+    "name": "Bibimbap",
+    "description": "Korean rice dish topped with assorted vegetables, meat, a fried egg, and spicy sauce.",
+    "cost": 16,
+    "rating": 4.7
+  },
+  {
+    "name": "Fish Tacos",
+    "description": "Mexican tacos filled with battered and fried fish, topped with cabbage slaw and creamy sauce.",
+    "cost": 14,
+    "rating": 4.6
+  },
+  {
+    "name": "Chicken Satay",
+    "description": "Thai or Indonesian dish of skewered and grilled chicken served with peanut sauce.",
+    "cost": 15,
+    "rating": 4.5
+  },
+  {
+    "name": "Beef Wellington",
+    "description": "British dish of beef tenderloin coated with pâté and wrapped in puff pastry.",
+    "cost": 35,
+    "rating": 4.8
+  },
+  {
+    "name": "Pierogi",
+    "description": "Polish dumplings filled with various ingredients such as potatoes, cheese, or meat.",
+    "cost": 12,
+    "rating": 4.4
+  },
+  {
+    "name": "Falafel",
+    "description": "Middle Eastern fried balls made from ground chickpeas or fava beans, typically served in pita bread.",
+    "cost": 10,
+    "rating": 4.3
+  },
+  {
+    "name": "Rendang",
+    "description": "Indonesian spicy meat dish slow-cooked in coconut milk and spices until tender.",
+    "cost": 22,
+    "rating": 4.7
+  },
+  {
+    "name": "Cannelloni",
+    "description": "Italian pasta tubes filled with a savory mixture, typically baked in sauce and cheese.",
+    "cost": 16,
+    "rating": 4.6
+  },
+  {
+    "name": "Tamales",
+    "description": "Latin American dish made of masa dough filled with meats, cheese, or vegetables, wrapped in corn husks and steamed.",
+    "cost": 14,
+    "rating": 4.5
+  },
+  {
+    "name": "Massaman Curry",
+    "description": "Thai curry dish made with a rich, creamy sauce, potatoes, peanuts, and tender meat.",
+    "cost": 18,
+    "rating": 4.6
+  },
+  {
+    "name": "Hamburger",
+    "description": "American sandwich consisting of a grilled beef patty served in a bun with various toppings.",
+    "cost": 10,
+    "rating": 4.5
+  },
+  {
+    "name": "Miso Soup",
+    "description": "Japanese soup made with dashi broth, miso paste, tofu, seaweed, and green onions.",
+    "cost": 8,
+    "rating": 4.4
+  },
+  {
+    "name": "Fettuccine Alfredo",
+    "description": "Italian pasta dish made with fettuccine noodles tossed in a creamy Parmesan sauce.",
+    "cost": 16,
+    "rating": 4.6
+  },
+  {
+    "name": "Chicken Adobo",
+    "description": "Filipino dish of chicken marinated in vinegar, soy sauce, garlic, and spices, then braised until tender.",
+    "cost": 14,
+    "rating": 4.7
+  },
+  {
+    "name": "Shakshuka",
+    "description": "Middle Eastern dish of poached eggs in a spiced tomato and pepper sauce, often served with bread.",
+    "cost": 12,
+    "rating": 4.5
+  },
+  {
+    "name": "Pad See Ew",
+    "description": "Thai stir-fried noodles dish with wide rice noodles, egg, Chinese broccoli, and soy sauce.",
+    "cost": 14,
+    "rating": 4.4
+  },
+  {
+    "name": "Beef Stroganoff",
+    "description": "Russian dish made with sautéed beef strips, mushrooms, onions, and sour cream sauce, served over noodles or rice.",
+    "cost": 18,
+    "rating": 4.6
+  },
+  {
+    "name": "Tandoori Chicken",
+    "description": "Indian dish of marinated chicken cooked in a tandoor oven, resulting in smoky, flavorful meat.",
+    "cost": 16,
+    "rating": 4.7
+  },
+  {
+    "name": "Eggplant Parmesan",
+    "description": "Italian-American dish made with breaded and fried eggplant slices, layered with marinara sauce and cheese.",
+    "cost": 14,
+    "rating": 4.5
+  },
+  {
+    "name": "Pasta Primavera",
+    "description": "Italian pasta dish with fresh vegetables, often including bell peppers, tomatoes, broccoli, and carrots, in a light sauce.",
+    "cost": 16,
+    "rating": 4.4
+  },
+  {
+    "name": "Kebab",
+    "description": "Middle Eastern dish of skewered and grilled meat, often served with rice or flatbread and yogurt sauce.",
+    "cost": 15,
+    "rating": 4.6
+  },
+  {
+    "name": "Bangers and Mash",
+    "description": "British dish of sausages (bangers) served with mashed potatoes, often accompanied by onion gravy.",
+    "cost": 14,
+    "rating": 4.5
+  },
+  {
+    "name": "Pho",
+    "description": "Vietnamese noodle soup made with broth, rice noodles, herbs, and meat (typically beef or chicken).",
+    "cost": 12,
+    "rating": 4.7
+  },
+  {
+    "name": "Beef Bulgogi",
+    "description": "Korean dish of thinly sliced marinated beef, grilled or stir-fried and typically served with rice and lettuce wraps.",
+    "cost": 20,
+    "rating": 4.8
+  },
+  {
+    "name": "Quiche Lorraine",
+    "description": "French savory tart filled with bacon, cheese, and a creamy egg custard, baked in a pastry crust.",
+    "cost": 16,
+    "rating": 4.5
+  },
+  {
+    "name": "Spaghetti Carbonara",
+    "description": "Classic Italian pasta dish made with eggs, cheese, pancetta, and black pepper.",
+    "cost": 12,
+    "rating": 4.5
+  },
+  {
+    "name": "Chicken Tikka Masala",
+    "description": "Creamy Indian curry dish with tender chicken marinated in spices and served with a tomato-based sauce.",
+    "cost": 15,
+    "rating": 4.7
+  },
+  {
+    "name": "Beef Bourguignon",
+    "description": "French beef stew cooked with red wine, mushrooms, onions, and bacon.",
+    "cost": 20,
+    "rating": 4.8
+  },
+  {
+    "name": "Sushi Rolls",
+    "description": "Japanese dish consisting of vinegared rice, seafood, and vegetables rolled in seaweed.",
+    "cost": 18,
+    "rating": 4.6
+  },
+  {
+    "name": "Tacos al Pastor",
+    "description": "Mexican street tacos filled with marinated pork, pineapple, onions, and cilantro.",
+    "cost": 10,
+    "rating": 4.9
+  },
+  {
+    "name": "Pad Thai",
+    "description": "Thai stir-fried noodles dish with tofu, shrimp, peanuts, bean sprouts, and lime.",
+    "cost": 12,
+    "rating": 4.4
+  },
+  {
+    "name": "Grilled Salmon with Lemon Butter Sauce",
+    "description": "Seafood dish featuring grilled salmon fillets topped with a tangy lemon butter sauce.",
+    "cost": 22,
+    "rating": 4.7
+  },
+  {
+    "name": "BBQ Ribs",
+    "description": "American-style ribs coated in barbecue sauce and slow-cooked until tender.",
+    "cost": 25,
+    "rating": 4.8
+  },
+  {
+    "name": "Paella",
+    "description": "Spanish saffron-infused rice dish cooked with seafood, chicken, and vegetables.",
+    "cost": 28,
+    "rating": 4.6
+  },
+  {
+    "name": "Moussaka",
+    "description": "Greek casserole dish made with layers of eggplant, minced meat, and creamy béchamel sauce.",
+    "cost": 18,
+    "rating": 4.5
+  },
+  {
+    "name": "Chicken Parmesan",
+    "description": "Italian-American dish featuring breaded chicken cutlets topped with marinara sauce and melted cheese.",
+    "cost": 16,
+    "rating": 4.6
+  },
+  {
+    "name": "Beef Stir-Fry with Vegetables",
+    "description": "Chinese dish of thinly sliced beef cooked with assorted vegetables in a savory sauce.",
+    "cost": 14,
+    "rating": 4.3
+  },
+  {
+    "name": "Lamb Tagine",
+    "description": "Moroccan slow-cooked stew made with tender lamb, dried fruits, and aromatic spices.",
+    "cost": 30,
+    "rating": 4.7
+  },
+  {
+    "name": "Chicken Curry",
+    "description": "Indian dish of chicken simmered in a flavorful curry sauce made with spices, tomatoes, and coconut milk.",
+    "cost": 17,
+    "rating": 4.6
+  },
+  {
+    "name": "Chili con Carne",
+    "description": "Tex-Mex chili made with ground beef, beans, tomatoes, and chili peppers.",
+    "cost": 12,
+    "rating": 4.4
+  },
+  {
+    "name": "Roast Chicken with Herbs",
+    "description": "European-style roast chicken seasoned with herbs, garlic, and lemon.",
+    "cost": 20,
+    "rating": 4.5
+  },
+  {
+    "name": "Veggie Burger",
+    "description": "Vegetarian or vegan burger patty made from vegetables, grains, and legumes.",
+    "cost": 13,
+    "rating": 4.2
+  },
+  {
+    "name": "Shepherd's Pie",
+    "description": "British comfort food dish made with minced meat, vegetables, and mashed potatoes.",
+    "cost": 16,
+    "rating": 4.4
+  },
+  {
+    "name": "Shrimp Scampi",
+    "description": "Italian-American dish of shrimp cooked in garlic, butter, lemon juice, and white wine.",
+    "cost": 26,
+    "rating": 4.7
+  },
+  {
+    "name": "Steak Frites",
+    "description": "French dish consisting of steak served with French fries and a side of salad.",
+    "cost": 30,
+    "rating": 4.6
+  },
+  {
+    "name": "Enchiladas",
+    "description": "Mexican dish made with corn tortillas rolled around a filling, covered with sauce, and baked.",
+    "cost": 14,
+    "rating": 4.5
+  },
+  {
+    "name": "Lasagna",
+    "description": "Italian pasta dish made with layers of lasagna noodles, meat sauce, and cheese.",
+    "cost": 18,
+    "rating": 4.7
+  },
+  {
+    "name": "Butter Chicken",
+    "description": "Indian dish of tender chicken cooked in a creamy, mildly spiced tomato sauce.",
+    "cost": 18,
+    "rating": 4.8
+  },
+  {
+    "name": "Coq au Vin",
+    "description": "French chicken dish braised in red wine with mushrooms, onions, and bacon.",
+    "cost": 22,
+    "rating": 4.6
+  },
+  {
+    "name": "Ramen",
+    "description": "Japanese noodle soup dish with broth, wheat noodles, meat, and vegetables.",
+    "cost": 13,
+    "rating": 4.5
+  },
+  {
+    "name": "Carnitas",
+    "description": "Mexican dish of slow-cooked pork shoulder, shredded and served with tortillas.",
+    "cost": 16,
+    "rating": 4.8
+  },
+  {
+    "name": "Tom Yum Soup",
+    "description": "Thai hot and sour soup made with lemongrass, lime, chili, and shrimp or chicken.",
+    "cost": 15,
+    "rating": 4.4
+  },
+  {
+    "name": "Gumbo",
+    "description": "Southern US stew made with a roux base, vegetables, seafood, and/or meat.",
+    "cost": 18,
+    "rating": 4.5
+  },
+  {
+    "name": "Yakitori",
+    "description": "Japanese skewered and grilled chicken, typically served with tare sauce.",
+    "cost": 16,
+    "rating": 4.6
+  }
+]
