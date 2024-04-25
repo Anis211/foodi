@@ -213,7 +213,7 @@ export default function Navbar() {
       <div className="lg:w-[20%] flex flex-row">
         <div className="py-2 px-1 bg-[#39DB4A] rounded-lg">
           <Image
-            src="/f.png"
+            src="/f.webp"
             alt="f"
             priority
             width={100}
@@ -269,7 +269,7 @@ export default function Navbar() {
               className="rounded-full px-2 py-2 bg-white shadow-xl ring-1 ring-gray-100"
             >
               <Image
-                src="/close.png"
+                src="/close.webp"
                 alt="close"
                 width={100}
                 height={100}
@@ -283,28 +283,25 @@ export default function Navbar() {
       <div className="lg:w-[40%] flex flex-row lg:gap-8 gap-4 items-center lg:justify-end">
         {!router.asPath.includes("order") ? (
           <button onClick={handleSearch} className="hidden lg:flex">
-            <Image
-              src="/search.png"
-              alt="search"
-              priority
-              width={100}
-              height={100}
-              className="w-6 h-6"
-            />
+            <lord-icon
+              src="https://cdn.lordicon.com/unukghxb.json"
+              trigger="hover"
+              stroke="bold"
+              style={{ width: "1.8rem", height: "1.8rem" }}
+            ></lord-icon>
           </button>
         ) : (
           ""
         )}
         {!router.asPath.includes("order") ? (
           <button onClick={() => setOpen(!open)}>
-            <Image
-              src="/basket.png"
-              alt="basket"
-              priority
-              width={100}
-              height={100}
-              className="w-6 h-6"
-            />
+            <lord-icon
+              src="https://cdn.lordicon.com/odavpkmb.json"
+              trigger="hover"
+              stroke="bold"
+              colors="primary:#121331,secondary:#000000"
+              style={{ width: "2rem", height: "2rem" }}
+            ></lord-icon>
           </button>
         ) : (
           ""
@@ -318,16 +315,19 @@ export default function Navbar() {
               : handleSignOut()
           }
         >
-          <Image
-            src={
-              !router.asPath.includes("account") ? "/user.png" : "/sign-out.png"
-            }
-            alt="user"
-            priority
-            width={100}
-            height={100}
-            className="w-6 h-6"
-          />
+          {!router.asPath.includes("account") ? (
+            <lord-icon
+              src="https://cdn.lordicon.com/kthelypq.json"
+              trigger="hover"
+              style={{ width: "2rem", height: "2rem" }}
+            ></lord-icon>
+          ) : (
+            <lord-icon
+              src="https://cdn.lordicon.com/nqtddedc.json"
+              trigger="hover"
+              style={{ width: "2rem", height: "2rem" }}
+            ></lord-icon>
+          )}
         </button>
         <AnimatePresence>
           {open ? (
@@ -340,22 +340,22 @@ export default function Navbar() {
             >
               <div className="flex flex-row gap-2 justify-center w-[100%]">
                 <Image
-                  src="/smile.png"
+                  src="/smile.webp"
                   alt="smile"
                   width={100}
                   height={100}
-                  priority
+                  priority={true}
                   className="w-6 h-6 -rotate-12"
                 />
                 <h2 className="font-inter font-bold text-xl text-center mb-5">
                   Your Order
                 </h2>
                 <Image
-                  src="/yummy.png"
+                  src="/yummy.webp"
                   alt="yummy"
                   width={100}
                   height={100}
-                  priority
+                  priority={true}
                   className="w-6 h-6 rotate-12"
                 />
               </div>
@@ -366,11 +366,11 @@ export default function Navbar() {
                 className="ml-[20%] absolute left-[70%]"
               >
                 <Image
-                  src="/close.png"
+                  src="/close.webp"
                   alt="close"
                   width={100}
                   height={100}
-                  priority
+                  priority={true}
                   className="w-6 h-6"
                 />
               </button>
@@ -391,11 +391,11 @@ export default function Navbar() {
                         <div className="flex sm:flex-row flex-col ml-4 sm:ml-0 gap-3 sm:gap-0 justify-between w-[55%]">
                           <div className="flex flex-row gap-1 z-50">
                             <Image
-                              src="/minus.png"
+                              src="/minus.webp"
                               alt="minus"
                               width={100}
                               height={100}
-                              priority
+                              priority={true}
                               className="w-5 h-5 px-1 py-1 shadow-xl rounded-md ring-1 ring-gray-100"
                               onClick={() =>
                                 obj.count > 1 ? handleDecrease(item, index) : ""
@@ -411,11 +411,11 @@ export default function Navbar() {
                               <h2 className="font-inter font-medium">dishes</h2>
                             </div>
                             <Image
-                              src="/plus.png"
+                              src="/plus.webp"
                               alt="plus"
                               width={100}
                               height={100}
-                              priority
+                              priority={true}
                               className="w-5 h-5 px-1 py-1 mr-3 shadow-xl rounded-md ring-1 ring-gray-100"
                               onClick={() =>
                                 obj.count < 99
@@ -431,7 +431,7 @@ export default function Navbar() {
                               alt="dollar"
                               width={100}
                               height={100}
-                              priority
+                              priority={true}
                               className="w-4 h-4 mt-1"
                             />
                           </h2>
@@ -439,11 +439,11 @@ export default function Navbar() {
                       </div>
                       <div className="flex justify-end z-40">
                         <Image
-                          src="/close.png"
+                          src="/close.webp"
                           alt="close"
                           width={100}
                           height={100}
-                          priority
+                          priority={true}
                           className="w-6 h-6"
                           onClick={() => remove(item)}
                         />
@@ -462,7 +462,7 @@ export default function Navbar() {
                   alt="dollar"
                   width={100}
                   height={100}
-                  priority
+                  priority={true}
                   className="w-4 h-4 mt-1"
                 />
               </div>
@@ -509,14 +509,12 @@ export default function Navbar() {
             className="flex flex-row gap-2 md:pl-4 md:pr-5 px-2 py-2 bg-[#39DB4A] rounded-full shadow-xl shadow-[#8EFF9A80]"
             onClick={() => setContact(true)}
           >
-            <Image
-              src="/call.png"
-              alt="call"
-              width={100}
-              height={100}
-              priority
-              className="w-6 h-6"
-            />
+            <lord-icon
+              src="https://cdn.lordicon.com/rsvfayfn.json"
+              trigger="hover"
+              colors="primary:#ffffff"
+              style={{ width: "1.5rem", height: "1.5rem" }}
+            ></lord-icon>
             <h2 className="font-poppins font-regular hidden md:flex text-white text-sm self-center">
               Contact
             </h2>
@@ -529,7 +527,7 @@ export default function Navbar() {
           onClick={() => setSidebar(true)}
         >
           <Image
-            src="/more.png"
+            src="/more.webp"
             alt="search"
             priority
             width={100}
@@ -556,7 +554,7 @@ export default function Navbar() {
                 className="ml-[20%] absolute left-[70%]"
               >
                 <Image
-                  src="/close.png"
+                  src="/close.webp"
                   alt="close"
                   width={100}
                   height={100}

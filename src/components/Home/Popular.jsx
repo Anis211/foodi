@@ -34,25 +34,25 @@ export default function Popular() {
         {[
           {
             name: "Main Dish",
-            img: "/burder.png",
+            img: "/burder.webp",
             remain: "86 dishes",
             link: "/dishes/main",
           },
           {
             name: "Break Fast",
-            img: "/sandwich.png",
+            img: "/sandwich.webp",
             remain: "12 break fast",
             link: "/dishes/breakfast",
           },
           {
             name: "Dessert",
-            img: "/icecream.png",
+            img: "/icecream.webp",
             remain: "48 desserts",
             link: "/dishes/dessert",
           },
           {
             name: "Browse All",
-            img: "/juice.png",
+            img: "/juice.webp",
             remain: "255 items",
             link: "/dishes/all",
           },
@@ -67,7 +67,7 @@ export default function Popular() {
                 scale: 0.9,
                 transition: { type: "spring", duration: 0.3 },
               }}
-              className="w-64 h-auto py-8 flex flex-col gap-3 drop-shadow-2xl shadow-xl ring-1 ring-gray-100 rounded-2xl"
+              className="w-64 h-auto py-8 flex flex-col gap-3 md:drop-shadow-2xl md:shadow-xl ring-1 ring-gray-100 rounded-2xl"
             >
               <div className="px-4 py-4 w-28 h-28 bg-[#C1F1C6] rounded-full mx-auto flex">
                 <Image

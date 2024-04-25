@@ -2,13 +2,13 @@ import Image from "next/image";
 
 export default function Footer() {
   return (
-    <div className="flex flex-col gap-7 mb-16 lg:px-32 px-8">
+    <div className="flex flex-col gap-7 pb-16 lg:px-32 px-8">
       <div className="flex md:flex-row flex-col gap-6 mb-10 mt-20">
         <div className="flex flex-col gap-7 w-72">
           <div className="flex flex-row">
             <div className="py-2 px-1 bg-[#39DB4A] rounded-lg">
               <Image
-                src="/f.png"
+                src="/f.webp"
                 alt="f"
                 priority
                 width={100}
@@ -61,10 +61,10 @@ export default function Footer() {
       <div className="flex flex-col md:flex-row gap-20">
         <div className="flex flex-row gap-4">
           {[
-            "/facebook.png",
-            "/instagram.png",
-            "/twitter.png",
-            "/youtube.png",
+            "/facebook.webp",
+            "/instagram.webp",
+            "/twitter.webp",
+            "/youtube.webp",
           ].map((image, index) => (
             <div
               key={index}

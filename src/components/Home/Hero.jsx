@@ -74,7 +74,7 @@ export default function Hero() {
       <div layout className="hidden xl:flex xl:flex-col xl:w-[50%]">
         <div className="w-[80%] h-[80%] bg-[#53EC62] rounded-full mt-16 self-center">
           <img
-            src="/hero.png"
+            src="/hero.webp"
             alt="hero"
             className="relative rounded-full w-[100%] h-[115%] bottom-[15%]"
           />
@@ -92,7 +92,7 @@ export default function Hero() {
           <h2 className="flex flex-row gap-3 w-48 bg-white font-inter font-semibold text-red-500 text-md px-4 py-2 shadow-xl ring-1 ring-gray-100 rounded-full rounded-br-none">
             Hot spicy Food{" "}
             <Image
-              src="/chili.png"
+              src="/chili.webp"
               alt="chili"
               width={100}
               height={100}
@@ -110,13 +110,13 @@ export default function Hero() {
             {
               name: "Spicy noodles",
               rating: 3,
-              img: "/dish1.png",
+              img: "/dish1.webp",
               cost: "18.00",
             },
             {
               name: "Vegetarain salad",
               rating: 4,
-              img: "/dish2.png",
+              img: "/dish2.webp",
               cost: "23.00",
             },
           ].map((item, index) => (
@@ -140,8 +140,8 @@ export default function Hero() {
                         key={index}
                         src={
                           item.rating - 1 >= index
-                            ? "/star.png"
-                            : "/emptyStar.png"
+                            ? "/star.webp"
+                            : "/emptyStar.webp"
                         }
                         alt="item"
                         className="w-3 h-3"

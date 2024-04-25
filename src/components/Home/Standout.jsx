@@ -5,7 +5,7 @@ import useStorage from "@/details/store";
 
 const first = [
   {
-    img: "/salad1.png",
+    img: "/salad1.webp",
     name: "Fattoush salad",
     description:
       "Middle Eastern mix of lettuce, tomatoes, cucumbers, radishes, and green onions with crispy flatbread, dressed in olive oil, lemon juice, and herbs like parsley and mint.",
@@ -13,7 +13,7 @@ const first = [
     rating: "4.9",
   },
   {
-    img: "/salad2.png",
+    img: "/salad2.webp",
     name: "Vegetable salad",
     description:
       "A vibrant mix of fresh lettuce, tomatoes, cucumbers, bell peppers, carrots, and onions, topped with optional extras like cheese or protein, and dressed in vinaigrette or ranch dressing.",
@@ -21,7 +21,7 @@ const first = [
     rating: "4.6",
   },
   {
-    img: "/salad3.png",
+    img: "/salad3.webp",
     name: "Egg vegi salad",
     description:
       "Hard-boiled eggs mixed with fresh veggies like lettuce, tomatoes, cucumbers, and bell peppers, topped with onions and dressed in vinaigrette or mayonnaise.",
@@ -135,7 +135,7 @@ export default function Standout() {
             className="w-14 h-14 bg-[#EFEFEF] rounded-full shadow-lg flex items-center justify-center disabled:opacity-55"
           >
             <Image
-              src="/left.png"
+              src="/left.webp"
               alt="left"
               width={100}
               height={100}
@@ -156,7 +156,7 @@ export default function Standout() {
             className="w-14 h-14 bg-[#39DB4A] rounded-full shadow-lg flex items-center justify-center disabled:opacity-55"
           >
             <Image
-              src="/right.png"
+              src="/right.webp"
               alt="right"
               width={100}
               height={100}
@@ -172,7 +172,10 @@ export default function Standout() {
         className="mt-10"
       >
         <AnimatePresence>
-          <motion.div id="items" className="flex flex-row flex-wrap gap-[5%]">
+          <motion.div
+            id="items"
+            className="flex flex-row flex-wrap justify-center lg:justify-evenly"
+          >
             {dishes.map((item, index) => (
               <motion.div
                 whileHover={{
@@ -191,8 +194,8 @@ export default function Standout() {
                   <Image
                     src={
                       items.includes(item.name) != false
-                        ? "/heartFilled.png"
-                        : "/heartOutlined.png"
+                        ? "/heartFilled.webp"
+                        : "/heartOutlined.webp"
                     }
                     alt="heart"
                     width={100}
@@ -231,7 +234,7 @@ export default function Standout() {
                   </h2>
                   <h2 className="flex flex-row gap-1 font-inter font-bold text-lg items-start">
                     <Image
-                      src="/star.png"
+                      src="/star.webp"
                       alt="star"
                       width={100}
                       height={100}

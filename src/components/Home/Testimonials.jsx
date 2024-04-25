@@ -19,7 +19,7 @@ export default function Testimonials() {
           initial={{ y: 60, opacity: 0 }}
           animate={inView ? { y: 0, opacity: 1 } : ""}
           transition={{ duration: 0.6, type: "spring", delay: 0.2 }}
-          src="/chef.png"
+          src="/chef.webp"
           alt="chef"
           loading="lazy"
           className="w-[20vw] h-[28vw] mx-auto relative z-10"
@@ -32,7 +32,7 @@ export default function Testimonials() {
           <h2 className="z-30 flex flex-row gap-2 font-inter font-semibold text-md bg-white w-[12vw] pr-2 pl-6 py-2 ring-1 ring-gray-100 rounded-xl rounded-tl-none shadow-lg relative bottom-[1vw] left-[25.5vw]">
             Our Best Chef
             <Image
-              src="/smile.png"
+              src="/smile.webp"
               alt="smile"
               width={100}
               height={100}
@@ -47,7 +47,7 @@ export default function Testimonials() {
           transition={{ duration: 0.6, type: "spring", delay: 0.4 }}
         >
           <Image
-            src="/yummy.png"
+            src="/yummy.webp"
             alt="yummy"
             width={100}
             height={100}
@@ -61,7 +61,7 @@ export default function Testimonials() {
           transition={{ duration: 0.6, type: "spring", delay: 0.4 }}
         >
           <Image
-            src="/pizza.png"
+            src="/pizza.webp"
             width={100}
             height={100}
             loading="lazy"
@@ -104,7 +104,7 @@ export default function Testimonials() {
           className="flex flex-row gap-8 mx-auto xl:mx-0"
         >
           <div className="flex flex-row -space-x-5">
-            {["/person1.webp", "/person2.webp", "/person3.jpg"].map(
+            {["/person1.webp", "/person2.webp", "/person3.webp"].map(
               (image, index) => (
                 <img
                   key={index}
@@ -119,7 +119,7 @@ export default function Testimonials() {
             <h2 className="font-inter font-bold text-md">Customer Feedback</h2>
             <p className="font-inter font-semibold text-md flex flex-row gap-1">
               <Image
-                src="/star.png"
+                src="/star.webp"
                 alt="star"
                 width={100}
                 height={100}

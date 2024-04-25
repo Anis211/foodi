@@ -37,8 +37,8 @@ export default function Main({ dishes, name }) {
               <Image
                 src={
                   !Object.keys(items).includes(item.name)
-                    ? "/heartOutlined.png"
-                    : "/heartFilled.png"
+                    ? "/heartOutlined.webp"
+                    : "/heartFilled.webp"
                 }
                 width={100}
                 height={100}
@@ -65,7 +65,7 @@ export default function Main({ dishes, name }) {
               </h2>
               <h2 className="flex flex-row gap-1 font-inter font-bold text-lg items-start">
                 <Image
-                  src="/star.png"
+                  src="/star.webp"
                   width={100}
                   height={100}
                   loading="lazy"

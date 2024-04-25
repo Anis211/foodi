@@ -41,22 +41,22 @@ export default function Story() {
           {
             name: "CATERING",
             body: "Delight your guests with our flavors and  presentation.",
-            img: "/food.png",
+            img: "/food.webp",
           },
           {
             name: "FAST DELIVERY",
             body: "We deliver your order promptly to your door.",
-            img: "/delivery.png",
+            img: "/delivery.webp",
           },
           {
             name: "ONLINE ORDERING",
             body: "Explore menu & order with ease using our Online Ordering.",
-            img: "/online.png",
+            img: "/online.webp",
           },
           {
             name: "GIFT CARDS",
             body: "Give the gift of exceptional dining with Foodi Gift Cards.",
-            img: "/gift.png",
+            img: "/gift.webp",
           },
         ].map((item, index) => (
           <motion.div
