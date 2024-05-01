@@ -1,13 +1,9 @@
 import Image from "next/image";
-import { motion, useInView } from "framer-motion";
-import { useRef } from "react";
+import { motion } from "framer-motion";
 
-export default function Story() {
-  const ref = useRef(null);
-  const inView = useInView(ref, { once: true });
-
+export default function Story({ inView }) {
   return (
-    <div ref={ref} className="flex lg:flex-row flex-col xl:gap-10 gap-12 mb-24">
+    <div className="flex lg:flex-row flex-col xl:gap-10 gap-12 mb-24">
       <div className="flex flex-col gap-8 xl:w-[50%] mx-auto text-center lg:text-start xl:mx-0">
         <motion.h2
           initial={{ y: 60, opacity: 0 }}

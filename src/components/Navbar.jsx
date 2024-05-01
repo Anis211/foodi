@@ -336,7 +336,7 @@ export default function Navbar() {
               animate={{ y: 0, opacity: 1 }}
               exit={{ y: -40, opacity: 0 }}
               transition={{ duration: 0.6, type: "spring" }}
-              className="px-4 py-5 xl:w-[35vw] md:w-[55vw] w-[90vw] max-h-[80vh] overflow-y-scroll overflow-x-hidden scroll-ul-2 top-[15vw] md:top-[10vw] lg:top-[7vw] left-[5vw] md:left-[40vw] lg:left-[55vw] shadow-xl rounded-xl absolute ring-1 ring-gray-100 bg-white z-40 flex flex-col gap-3"
+              className="px-4 py-5 xl:w-[35vw] md:w-[55vw] w-[90vw] max-h-[80vh] overflow-y-scroll overflow-x-hidden scroll-ul-2 top-[15vw] md:top-[10vw] lg:top-[7vw] left-[5vw] md:left-[40vw] lg:left-[40vw] xl:left-[55vw] shadow-xl rounded-xl absolute ring-1 ring-gray-100 bg-white z-40 flex flex-col gap-3"
             >
               <div className="flex flex-row gap-2 justify-center w-[100%]">
                 <Image

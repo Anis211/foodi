@@ -7,8 +7,11 @@ export default function App({ Component, pageProps }) {
     <>
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <script src="https://www.paypal.com/sdk/js?client-id=ARxUsuJe4VYBBmQX1Et1oxJW7Erm6LBq4XZPCnKBajCoXAk82QfEi60ZRamnLmxSsf2uahVTRyLxKlGI&currency=USD" />
-        <script src="https://cdn.lordicon.com/lordicon.js" />
+        <script
+          rel="preload"
+          src="https://www.paypal.com/sdk/js?client-id=ARxUsuJe4VYBBmQX1Et1oxJW7Erm6LBq4XZPCnKBajCoXAk82QfEi60ZRamnLmxSsf2uahVTRyLxKlGI&currency=USD"
+        />
+        <script rel="preload" src="https://cdn.lordicon.com/lordicon.js" />
         <title>Foodi</title>
       </Head>
       <Layout>

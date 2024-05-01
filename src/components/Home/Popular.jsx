@@ -1,14 +1,10 @@
 import Image from "next/image";
-import { motion, useInView } from "framer-motion";
-import { useRef } from "react";
+import { motion } from "framer-motion";
 import Link from "next/link";
 
-export default function Popular() {
-  const ref = useRef(null);
-  const inView = useInView(ref, { once: true });
-
+export default function Popular({ inView }) {
   return (
-    <div ref={ref} className="flex flex-col gap-7 text-center lg:mt-32">
+    <div className="flex flex-col gap-7 text-center lg:mt-32">
       <motion.h2
         initial={{ y: 60, opacity: 0 }}
         animate={inView ? { y: 0, opacity: 1 } : ""}

@@ -1,13 +1,9 @@
 import Image from "next/image";
-import { motion, useInView } from "framer-motion";
-import { useRef } from "react";
+import { motion } from "framer-motion";
 
-export default function Testimonials() {
-  const ref = useRef(null);
-  const inView = useInView(ref, { once: true });
-
+export default function Testimonials({ inView }) {
   return (
-    <div ref={ref} className="flex flex-row gap-20 mt-28">
+    <div className="flex flex-row gap-20 mt-28">
       <div className="w-[50%] hidden xl:block">
         <motion.div
           initial={{ y: 60, opacity: 0 }}

@@ -1,6 +1,6 @@
 import Image from "next/image";
-import { AnimatePresence, motion, useInView, animate } from "framer-motion";
-import { useRef, useEffect, useState } from "react";
+import { AnimatePresence, motion, animate } from "framer-motion";
+import { useEffect, useState } from "react";
 import useStorage from "@/details/store";
 
 const first = [
@@ -54,13 +54,10 @@ const second = [
   },
 ];
 
-export default function Standout() {
+export default function Standout({ inView }) {
   useEffect(() => {
     useStorage.persist.rehydrate();
   }, []);
-
-  const ref = useRef(null);
-  const inView = useInView(ref, { once: true });
 
   const res = useStorage((state) => state.cart);
   const items = Object.keys(res);
@@ -102,7 +99,7 @@ export default function Standout() {
   };
 
   return (
-    <div ref={ref} className="flex flex-col gap-5 mb-20 min-h-[100vh]">
+    <div className="flex flex-col gap-5 mb-20 min-h-[100vh]">
       <motion.h2
         initial={{ y: 60, opacity: 0 }}
         animate={inView ? { y: 0, opacity: 1 } : ""}
